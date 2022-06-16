@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+    <form class="form-body" action="index.html" method="post">
+        <h1>Create an account</h1>
+        <h3>Please complete all fields</h3>
+        <div class="block-main">
+            <div class="leftcolumn">
+                <div class="item-field">
+                    <label for="frname">First Name<span class="red-info">*</span></label>
+                    <input type="text" id="frname" name = "first_name">
+                </div>
+                <div class="item-field">
+                    <label for="jbtitle">Job Title<span class="red-info">*</span></label>
+                    <input type="text" id="jbtitle" name = "job_title">
+                </div>
+                <div class="item-field">
+                    <label for="pswr">Password<span class="red-info">*</span></label>
+                    <input type="password" id="pswr" name = "pas">
+                </div>
+                <div class="item-field">
+                    <label for="ph">Phone<span class="red-info">*</span></label>
+                    <input type="tel" id="ph" name = "phon">
+                </div>
+                <div class="item-field">
+                    <label for="employs">Employees<span class="red-info">*</span></label>
+                    <select name="emplos" id="employs">
+                        <option value="one">one test</option>
+                        <option value="two">two test</option>
+                        <option value="tri">tri test</option>
+                        <option value="for">for test</option>
+                        <option value="five">five test</option>
+                        <option value="six">six test</option>
+                        <option value="seven">seven test</option>
+                    </select>
+                </div>
+            </div>
+            <div class="rutghcolumn">
+                <div class="item-field">
+                    <label for="lsname">Last Name<span class="red-info">*</span></label>
+                    <input type="text" id="lsname" name = "lname">
+                </div>
+                <div class="item-field">
+                    <label for="emal">Email<span class="red-info">*</span></label>
+                    <input type="email" id="emal" name = "el">
+                </div>
+                <div class="item-field">
+                    <label for="prPas">Re-enter Password<span class="red-info">*</span></label>
+                    <input type="password" id="prPas" name = "prPassword">
+                </div>
+                <div class="item-field">
+                    <label for="cmp">Company<span class="red-info">*</span></label>
+                    <input type="text" id="cmp" name = "comp">
+                </div>
+                <div class="item-field">
+                    <label for="cont">Country<span class="red-info">*</span></label>
+                    <select name="count" id="cont">
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Mexica">Mexica</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="sub">
+            <div class="sub-item">
+                <input type="checkbox" id="ag"
+                value="accept" name="accept_check"><label for="ag">I give consent to recerving text messages(cerrier charges may apply)</label>
+            </div>
+            <div class="sub-item">
+                <input type="checkbox" id="ad"
+                value="accept1" name="accept_check1"><label for="ad">I accept the Term of Use</label>
+            </div>
+        </div>
+        <button class="btn" type="submit">Sign up</button>
+    </form>
+</body>
+</html>

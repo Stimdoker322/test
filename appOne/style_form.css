@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('fonts/OpenSans-SemiBold.woff2') format('woff2'), url('fonts/OpenSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+* {
+    font-family: 'Open Sans';
+}
+.item-field input {
+    height: 25px;
+    width: 420px;
+}
+.item-field select {
+    height: 30px;
+    width: 430px;
+}
+.red-info {
+    color: red;
+}
+
+body {
+    background: #dadada;
+}
+.form-body {
+    background: white;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    height: auto;
+    width: 900px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.block-main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 300px;
+    width: 500px;
+}
+.item-field {
+    display: grid;
+    padding: 10px;
+}
+.leftcolumn {
+    display: grid;
+}
+.rutghcolumn {
+    display: grid;
+}
+.sub {
+    margin-top: 80px;
+    display: grid;
+    margin-bottom: 30px;
+}
+.sub-item {
+    display: flex;
+}
+.btn {
+    background: #25a3f7;
+    color: white;
+    height: 40px;
+    width: 500px;
+    font-size: 16px;
+    border: none;
+}
